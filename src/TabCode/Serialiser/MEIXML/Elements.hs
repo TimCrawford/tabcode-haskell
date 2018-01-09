@@ -454,12 +454,12 @@ tuning "renaissance" =
 tuning "baroque" =
   elPerfMediumLute noMEIAttrs
     "baroque"
-    [ MEICourse ( atPname "g" <> atOct 4 ) [ MEIString ( atPname "g" <> atOct 4 ) [] ]
+    [ MEICourse ( atPname "f" <> atOct 4 ) [ MEIString ( atPname "f" <> atOct 4 ) [] ]
     , MEICourse ( atPname "d" <> atOct 4 ) [ MEIString ( atPname "d" <> atOct 4 ) [] ]
     , MEICourse ( atPname "a" <> atOct 4 ) [ MEIString ( atPname "a" <> atOct 4 ) [] ]
     , MEICourse ( atPname "f" <> atOct 3 ) [ MEIString ( atPname "f" <> atOct 3 ) [] ]
-    , MEICourse ( atPname "c" <> atOct 3 ) [ MEIString ( atPname "c" <> atOct 3 ) [] ]
-    , MEICourse ( atPname "g" <> atOct 2 ) [ MEIString ( atPname "g" <> atOct 2 ) [] ]
+    , MEICourse ( atPname "d" <> atOct 3 ) [ MEIString ( atPname "d" <> atOct 3 ) [] ]
+    , MEICourse ( atPname "a" <> atOct 2 ) [ MEIString ( atPname "a" <> atOct 2 ) [] ]
     ]
 
 tuning t = error $ "Unknown tuning name: " ++ t
