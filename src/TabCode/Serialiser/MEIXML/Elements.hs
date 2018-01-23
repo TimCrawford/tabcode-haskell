@@ -456,7 +456,7 @@ tuning "baroque" =
     "baroque"
     [ MEICourse ( atPname "f" <> atOct 4 ) [ MEIString ( atPname "f" <> atOct 4 ) [] ]
     , MEICourse ( atPname "d" <> atOct 4 ) [ MEIString ( atPname "d" <> atOct 4 ) [] ]
-    , MEICourse ( atPname "a" <> atOct 4 ) [ MEIString ( atPname "a" <> atOct 4 ) [] ]
+    , MEICourse ( atPname "a" <> atOct 3 ) [ MEIString ( atPname "a" <> atOct 4 ) [] ]
     , MEICourse ( atPname "f" <> atOct 3 ) [ MEIString ( atPname "f" <> atOct 3 ) [] ]
     , MEICourse ( atPname "d" <> atOct 3 ) [ MEIString ( atPname "d" <> atOct 3 ) [] ]
     , MEICourse ( atPname "a" <> atOct 2 ) [ MEIString ( atPname "a" <> atOct 2 ) [] ]
